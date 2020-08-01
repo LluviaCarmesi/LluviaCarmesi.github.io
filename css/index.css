@@ -85,7 +85,7 @@ body {
   background-image: linear-gradient(#ffc56e, #f5a742);
   display: flex;
   text-align: left;
-  padding: 0% 10%;
+  padding: 20px 15%;
 }
 
 h2 {
@@ -114,6 +114,10 @@ li {
 
 .resume {
   margin-right: 5%;
+}
+
+.resume-background .fa {
+  color: #0000FF;
 }
 
 .fa-h-square {
@@ -178,4 +182,39 @@ li {
 .phishing-game img{
   margin-top: 10px;
   width: 40%;
+}
+
+@media screen and (max-width: 1250px) {
+
+  .resume-background {
+    padding: 20px 20px;
+  }
+
+  .phishing-game img{
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 875px) {
+
+  .main-links {
+    display: block;
+  }
+
+  .main-links a{
+    text-align: center;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 766px) {
+
+  .resume-background {
+    display: block;
+    padding: 20px;
+  }
+
+  .phishing-game img{
+    width: 90%;
+  }
 }
