@@ -1,0 +1,181 @@
+body {
+  margin: 0px 0px;
+}
+
+.main-header {
+  background-color: #fc6f03;
+  text-align: center;
+  color: #FFF;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.heading h1 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 2.5em;
+}
+
+.contact p{
+  font-size: 1.25em;
+  margin: 5px 0px 0px 0px;
+}
+
+.icons i{
+  margin-right: 0.25em;
+}
+
+.fa-linkedin-square {
+  margin-left: 0.2em;
+  color: #0072b1;
+  font-size: 3.5em;
+}
+
+.fa-linkedin-square:hover {
+  color: #0082b1;
+  transition: 400ms;
+}
+
+.fa-github {
+  color: #000;
+  font-size: 3.5em;
+}
+
+.fa-github:hover {
+  color: #333;
+  transition: 400ms;
+}
+
+.main-links {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-links a {
+  color: #FFF;
+  background-color: #fc6f03;
+  text-decoration: none;
+  padding: 1em 5em;
+  font-size: 1.40em;
+  box-shadow: 5px 5px 8px #BBB;
+}
+
+.main-links a:hover {
+  color: #FFF;
+  background-color: #f5a742;
+  text-decoration: underline;
+  transition: 400ms;
+}
+
+.profile-main {
+  background-image: linear-gradient(#ffc56e, #f5a742);
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.profile-pic img {
+  margin-top: 10px;
+  width: 40%;
+  height: 40%;
+}
+
+.resume-background {
+  background-image: linear-gradient(#ffc56e, #f5a742);
+  display: flex;
+  text-align: left;
+  padding: 0% 10%;
+}
+
+h2 {
+  margin-bottom: 1.7em;
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  margin-left: 10px;
+  font-size: 1.25em;
+}
+
+p {
+  margin-left: 20px;
+  font-size: 1.10em;
+}
+
+li {
+  font-size: 1.10em;
+  margin-bottom: 10px;
+}
+
+.resume {
+  margin-right: 5%;
+}
+
+.fa-h-square {
+  font-size: 1.40em;
+}
+
+.education-heading {
+  margin-bottom: 1.60em;
+}
+
+.fa-gas-pump {
+  font-size: 1.40em;
+}
+
+.fa-shopping-cart {
+  font-size: 1.40em;
+}
+
+.fa-graduation-cap {
+  font-size: 1.40em;
+}
+
+.skills-heading {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.skill {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.sub-skills {
+  list-style-type: circle;
+}
+
+.sub-skills li {
+  display: inline;
+}
+
+.certifications-heading {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.certifications {
+  margin-left: 20px;
+}
+
+.languages-heading {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.projects {
+  background-image: linear-gradient(#ffc56e, #f5a742);
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.phishing-game img{
+  margin-top: 10px;
+  width: 40%;
+}
