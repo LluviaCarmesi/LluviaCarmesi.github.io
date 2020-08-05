@@ -77,15 +77,15 @@ body {
 
 .profile-pic img {
   margin-top: 10px;
-  width: 40%;
-  height: 40%;
+  width: 60%;
+  height: 60%;
 }
 
 .resume-background {
   background-image: linear-gradient(#ffc56e, #f5a742);
   display: flex;
   text-align: left;
-  padding: 20px 15%;
+  padding: 20px 10%;
 }
 
 h2 {
@@ -103,8 +103,15 @@ h4 {
 }
 
 p {
-  margin-left: 20px;
   font-size: 1.10em;
+}
+
+.resume p {
+  margin-left: 20px;
+}
+
+.education-skills p {
+  margin-left: 20px;
 }
 
 li {
@@ -114,6 +121,8 @@ li {
 
 .resume {
   margin-right: 5%;
+  border: 2px solid black;
+  padding: 0px 50px;
 }
 
 .resume-background .fa {
@@ -122,6 +131,11 @@ li {
 
 .fa-h-square {
   font-size: 1.40em;
+}
+
+.education-skills {
+  border: 2px solid black;
+  padding: 0px 50px;
 }
 
 .education-heading {
@@ -172,11 +186,21 @@ li {
   margin-bottom: 20px;
 }
 
+.language-description {
+  margin-left: 20px;
+}
+
 .projects {
   background-image: linear-gradient(#ffc56e, #f5a742);
   text-align: center;
   width: 100%;
   height: 100%;
+  padding-bottom: 40px;
+}
+
+.description {
+  padding: 0px 30%;
+  display: inline-block;
 }
 
 .phishing-game img{
@@ -185,17 +209,31 @@ li {
   box-shadow: 5px 5px 8px #BBB;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1500px) {
 
   .resume-background {
     padding: 20px 20px;
   }
-
-  .phishing-game img{
-    width: 60%;
-  }
 }
 
+@media screen and (max-width: 1250px) {
+
+  .phishing-game img {
+    width: 60%;
+  }
+
+  .description {
+    padding: 0px 16%;
+  }
+
+  .resume {
+    padding: 0px 10px;
+  }
+
+  .education-skills {
+    padding: 0px 10px;
+  }
+}
 @media screen and (max-width: 875px) {
 
   .main-links {
@@ -206,16 +244,24 @@ li {
     text-align: center;
     display: block;
   }
-}
-
-@media screen and (max-width: 766px) {
 
   .resume-background {
     display: block;
     padding: 20px;
   }
 
-  .phishing-game img{
+  .resume {
+    margin-right: 0%;
+  }
+}
+
+@media screen and (max-width: 766px) {
+
+  .phishing-game img {
     width: 90%;
+  }
+
+  .description {
+    padding: 0px 5%;
   }
 }
