@@ -195,13 +195,14 @@ li {
   text-align: center;
   width: 100%;
   height: 100%;
-  padding-bottom: 40px;
+  padding: 40px 0px;
 }
 
 .project-description {
   display: flex;
   text-align: left;
   padding: 20px 5%;
+  border: 2px solid #000;
 }
 
 .description {
