@@ -32,7 +32,7 @@ body {
 }
 
 .fa-linkedin-square:hover {
-  color: #0082b1;
+  color: #0085cf;
   transition: 400ms;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 .fa-github:hover {
-  color: #333;
+  color: #444;
   transition: 400ms;
 }
 
@@ -73,6 +73,12 @@ body {
   text-align: center;
   width: 100%;
   height: 100%;
+  padding: 20px 0px;
+}
+
+.profile-objective {
+  font-size: 20px;
+  padding: 0px 20%;
 }
 
 .profile-pic img {
@@ -112,6 +118,7 @@ p {
 
 .education-skills p {
   margin-left: 20px;
+  display: inline;
 }
 
 li {
@@ -258,6 +265,9 @@ li {
     display: block;
   }
 
+  .profile-objective {
+    font-size: 16px;
+  }
   .resume-background {
     display: block;
     padding: 20px;
