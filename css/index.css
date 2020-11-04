@@ -88,7 +88,21 @@ body {
 }
 
 .resume-background {
-  background-image: linear-gradient(#ffc56e, #f5a742);
+    padding-top: 20px;
+    background-image: linear-gradient(#ffc56e, #f5a742);
+}
+
+.resume-download {
+  text-align: center;
+  font-size: 2.25em;
+}
+
+.resume-download a {
+  color: #000;
+  text-decoration: none;
+}
+
+.resume-content {
   display: flex;
   text-align: left;
   padding: 20px 10%;
@@ -132,7 +146,7 @@ li {
   padding: 0px 50px;
 }
 
-.resume-background .fa {
+.resume-content .fa {
   color: #0000FF;
 }
 
@@ -142,7 +156,7 @@ li {
 
 .education-skills {
   border: 2px solid black;
-  padding: 0px 50px;
+  padding: 0px 74px;
 }
 
 .education-heading {
@@ -226,8 +240,12 @@ li {
 
 @media screen and (max-width: 1500px) {
 
-  .resume-background {
+  .resume-content {
     padding: 20px 20px;
+  }
+
+  .education-skills {
+    padding: 0px 67px;
   }
 }
 
@@ -251,7 +269,7 @@ li {
   }
 
   .education-skills {
-    padding: 0px 10px;
+    padding: 0px 30px;
   }
 }
 @media screen and (max-width: 875px) {
@@ -268,7 +286,7 @@ li {
   .profile-objective {
     font-size: 16px;
   }
-  .resume-background {
+  .resume-content {
     display: block;
     padding: 20px;
   }
